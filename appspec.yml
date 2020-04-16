@@ -13,5 +13,5 @@ permissions:
        - file
 hooks:
  AfterInstall:
-   - location: sh /home/ubuntu/Reload.sh
+   - location: scripts/Reload.sh
      runas: root

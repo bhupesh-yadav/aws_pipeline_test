@@ -1,0 +1,10 @@
+version: 0.2
+run-as: root
+
+phases:
+  install:
+    run-as: root
+
+artifacts:
+  files:
+    - ./*
