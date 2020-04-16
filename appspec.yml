@@ -11,3 +11,7 @@ permissions:
      mode: 755
      type:
        - file
+hooks:
+ AfterInstall:
+   - location: sh /home/ubuntu/Reload.sh
+     runas: root
