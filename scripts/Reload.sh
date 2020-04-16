@@ -1,3 +1,4 @@
-#!/bin/bash
+!#/bin/bash
+
 sudo service nginx reload
-sudo touch XYZ
+
